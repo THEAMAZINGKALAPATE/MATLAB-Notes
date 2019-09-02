@@ -1,0 +1,85 @@
+MATLAB
+-Matrix Laboratory
+-High-level language for technical computing
+-An easy-to-use environment where you can:
+ >Compute
+ >Visualize
+ >Program
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Applications of MATLAB
+-Graphics
+-Algorithm Dev.
+-Data acquisition and signal processing
+ >Audio, speech, image, video, ECG, and EEG
+-Data analysis
+-Modelling and simulation
+-GUI Modelling
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Variables in MATLAB
+-variables can be
+ >Scalar
+ >Vector
+ >Matrix
+-No need to declare variables
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Naming Variables
+-Can be 63 characters long
+-Can contain letters, numbers, and underscores (MUST START WITH LETTER)
+-Reserved words are not allowed to be used such as:
+ >Pre-defined constants (eg: ans, pi, eps, inf, i/j, NaN, realmax, realmin)
+ >Built-in functions
+-Case-sensitive
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Operators in MATLAB
++ Addition
+- Subtraction
+* Multiplication
+/ Scalar Division
+^ Exponentiation
+= Assignment Operator
+.* Element-by-element Multiplication for Vectors and Matrices
+./ Element-by-element Division for Vectors and Matrices
+.^ Element-by-element Exponentiation for Vectors and Matrices
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Built-in Math commands
+
+sin(x), cos(x), tan(x) etc. >Circular/Trigonometric Functinos in radians
+sind(x), cosd(x), tand(x) >in degrees
+sqrt(x) >Square root
+exp(x) >Exponential function
+log(x) >Natural logarithm
+log10(x) >Common logarithm (base 10)
+abs(x) >Modulus or magnitude of a complex variable (|Absoulute value|)
+angle(x) >Argument or angle of a complex number
+conj(x) >Conjugate
+real(x) >Real part of a complex number
+imag(x) >Imaginary part of a complex number
+cart2sph() >Cartesian to Spherical coord
+cart2pol() > Cartesian to polar coordinates
+sph2cart() >Spherical to cartesian coordinates
+pol2cart() >Polar to cartesian coordinates
+fix(x) >Rounds toward zero
+floor(x) >Rounds towards a lower integer
+ceil(x) >Rounds towards a higher integer
+round(x) >Rounds towards the nearest integer
+primes(x) >All prime numbers less than x
+gcd() >Greatest cmomon factor/divisor
+lcm() >Least common multiple
+rat() >Rational approximation
+rats() >Rational form
+rem() >Remainder after division
+mod() >Modulo operation
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Misc commands
+- lookfor (keyword)
+- help (keyword)
+- clc - clears command window
+- format <attribute> - Sets up the display format depending on the attribute placed after the format command
+ FORMATTING ATTRIBUTE
+ >short - scaled fixed point with 5 digits
+ >long - format with 15 digits for double and 8 digits for single
+ >short eng -Engineering notation that has at least 5 digits
+ >long eng -engineering notation that has exactly 16 significant digits
+ >hex - hexadecimal
+ >rat
+ +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
