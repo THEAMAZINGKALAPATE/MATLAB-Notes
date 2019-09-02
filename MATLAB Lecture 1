@@ -69,6 +69,24 @@ rat() >Rational approximation
 rats() >Rational form
 rem() >Remainder after division
 mod() >Modulo operation
+
+eye(n) >Creates an anth order identity matrix
+ones(m,n) >Creates an m x n matrix with all elements having a value of 1
+rand(m,n) >Creates an m x n matrix with its elements uniformly distributed from 0 to 1
+zeros(m,n) >Creates an m x n matrix with all elements having a value of 0
+randn(m,n) >Creates an m x n matrix with Gaussian Distributed elements of zero mean and unit variance
+magic(n) >Creates an n x n matrix where the sum of its diagonal, rows, and columns are equal
+size(A) >Returns the dimensions of vector or matrix A
+length(A) >Returns either the number of elements in vector A or max{m,n} pf ,atrox A whoes dimensions are m x n
+sum(A) > Returns either the sums of either elements A 
+
+sort(A) >Sorts each column of matrix A in ascending order
+inv(A) >Inverse of matrix A
+det(A) >Determinant of matrix A
+rank(A) >Rank of matrix A
+eig(A) >Eigenvalues of matrix A
+norm(A) >Norm of vector or matrix A
+transpose(A) >Transpose of matrix A
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 Misc commands
 - lookfor (keyword)
@@ -83,3 +101,4 @@ Misc commands
  >hex - hexadecimal
  >rat
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
