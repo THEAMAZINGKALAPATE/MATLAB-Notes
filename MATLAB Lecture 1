@@ -99,6 +99,6 @@ Misc commands
  >short eng -Engineering notation that has at least 5 digits
  >long eng -engineering notation that has exactly 16 significant digits
  >hex - hexadecimal
- >rat
+ >rat - Approximation by ratio of small integers
  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  
